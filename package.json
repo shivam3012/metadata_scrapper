@@ -1,0 +1,51 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --exit",
+    "start": "node app.js",
+    "lint": "eslint app.js"
+  },
+  "author": "Shivam Verma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-things": "^0.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^6.5.0",
+    "helmet": "^3.14.0",
+    "i18n": "^0.9.1",
+    "metascraper": "^5.14.22",
+    "metascraper-author": "^5.14.22",
+    "metascraper-clearbit": "^5.14.24",
+    "metascraper-date": "^5.14.22",
+    "metascraper-description": "^5.14.22",
+    "metascraper-image": "^5.14.22",
+    "metascraper-logo": "^5.14.22",
+    "metascraper-publisher": "^5.14.22",
+    "metascraper-title": "^5.14.22",
+    "metascraper-url": "^5.14.22",
+    "mocha": "^8.2.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.3.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}

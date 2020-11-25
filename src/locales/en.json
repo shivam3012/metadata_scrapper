@@ -1,0 +1,10 @@
+{
+  "responseStatus": {
+    "ERROR": "error",
+    "FAILURE": "failure",
+    "SUCCESS": "success"
+  },
+  "SUCCESS": "Response Success",
+  "SOMETHING_WENT_WRONG": "Something went wrong",
+  "DATA_FETCHED": "Data fetched successfully"
+}
