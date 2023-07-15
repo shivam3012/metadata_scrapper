@@ -35,7 +35,7 @@
     "metascraper-publisher": "^5.14.22",
     "metascraper-title": "^5.14.22",
     "metascraper-url": "^5.14.22",
-    "mocha": "^8.2.1",
+    "mocha": "^10.2.0",
     "moment": "^2.24.0",
     "mongoose": "^5.3.2",
     "path": "^0.12.7"
